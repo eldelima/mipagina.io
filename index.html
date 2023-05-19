@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clase html</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+
+      <h1>MI PRIMERA WEB</h1>
+      <h2>mi segunda Web</h2>
+
+      <ul>
+        <a href="https://www.ucc.edu.ar" target="_blank"><li>HOME</li></a>
+        <li>CONTACTO</li>
+        <li>REFERENCIAS</li>
+        <li>CLIENTES</li>
+
+        <img src="./imagenes/ima1.jpg" alt="imagen de fondo" width="200" />
+      </ul>
+    </header>
+
+    <hr />
+
+    <section>
+      <video controls width="500">
+        <source src="./imagenes/mesirve.mp4" />
+      </video>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/pxVaglA-xK0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <hr />
+      <br />
+      <br />
+
+      <form>
+        <span>
+          nombre <input type="text" name="nombre" placeholder="nombre" />
+        </span>
+        <br />
+        <span>
+          contraseña
+          <input
+            type="password"
+            name="contraseña"
+            placeholder="indica tu clave"
+        
+          /> </span
+        ><br />
+
+        <span> dni<input type="number" name="dni" min="0" max="100" /> </span
+        ><br />
+
+        <span> DIRECCION <textarea></textarea></span><br />
+
+        <span
+          ><br />
+          agregar archivos <input type="file" name="archivos" multiple />
+        </span>
+
+        <span>
+          email<input
+            type="email"
+            name="emial"
+            placeholder="ejemplo@dominio.com"
+          /> </span
+        ><br />
+        <span>
+          Indique el sexo: femenino
+          <input type="radio" name="sexo" value="femenino" /> masculino
+          <input type="radio" name="sexo" value="masculino" /> </span
+        ><br />
+
+        <span>
+          Cuantos idiomas hablas: español<input
+            type="checkbox"
+            name="idioma"
+            value="espanol"
+          />
+          Ingles <input type="checkbox" name="idioma" value="ingles" /> italiano
+          <input type="checkbox" name="idioma" value="italiano" />
+        </span><br>
+
+      
+
+        <button id="bformulario">Enviar</button>
+        
+
+        <span>
+       indique el pais de nacimiento: <select name="pais" >
+
+        <option value="" selected="selected" hidden="hidden"></option>
+        <option value="1">Colombia</option>
+        <option value="2">Chile</option>
+        <option value="3">Argentina</option>
+        <option value="4">Venezuela</option>
+
+
+
+
+
+       </select>
+
+
+
+        </span>
+
+
+
+
+
+
+      </form>
+    </section>
+
+    <footer></footer>
+  </body>
+</html>
